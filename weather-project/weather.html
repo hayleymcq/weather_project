@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="weather_app">
+      <form class="change-city">
+        <div>
+          <input
+            class="search-bar"
+            type="search"
+            placeholder="Enter A City.."
+            autofocus
+          />
+          <input type="submit" value="Search" class="button" />
+        </div>
+      </form>
+      <main>
+        <h1>Paris</h1>
+        <div class="weather-conditions">
+          <span class="todays-date">Saturday 15:32</span>, moderate rain
+          <br />
+          Humidity: <span class="bold">87%</span>, Wind:
+          <span class="bold">7.2km/h</span>
+        </div>
+        <div class="todays-temp">
+          <span class="main_emoji">🌞</span><span class="main_temp">14</span
+          ><span class="degree">°C</span>
+        </div>
+      </main>
+      <div class="byline">
+        This project was coded by Hayley McQ and is
+        <a href="http://">open-sourced on GitHub</a> and
+        <a href="http://"> hosted on Netlify</a>
+      </div>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
