@@ -21,15 +21,21 @@ let todaysDate = document.querySelector(".todays-date");
 
 todaysDate.innerHTML = `${day} ${hour}:${minute}`;
 
-let h1 = document.querySelector("h1");
 
-let changeCity = document.querySelector(".change-city");
-
-changeCity.addEventListener("submit", displayCity);
-
-let cityChange = document.querySelector(".search-bar");
-
-function displayCity(event) {
+function citySearchResult(event) {
   event.preventDefault();
-  h1.innerHTML = `${cityChange.value}`;
+   let h1 = document.querySelector("h1");
+   let searchFormInput = document.querySelector("#search-form-input");
+  h1.innerHTML = searchFormInput.value;
+ 
 }
+
+let changeCity = document.querySelector(".search-form");
+changeCity.addEventListener("submit", citySearchResult);
+
+
+
+
+
+
+
