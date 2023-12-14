@@ -47,7 +47,7 @@ main {
   border-color: #f9f7fe;
 }
 h1 {
-  font-weight: 1000;
+  font-weight: 700;
   font-size: 40px;
 }
 
@@ -60,28 +60,22 @@ h1 {
 
 .todays-temp {
   font-weight: 400;
-  font-size: 30px;
+  font-size: 26px;
   position: relative;
-  left: 400px;
-  bottom: 120px;
-}
-
-.main_emoji {
-  font-weight: 300;
-  font-size: 50px;
-  padding-bottom: 10px;
-  position: relative;
-  bottom: 5px;
+  left: 360px;
+  bottom: 135px;
 }
 
 .main_temp {
   font-size: 80px;
   font-weight: 700;
+  position: relative;
+  bottom: 12px;
 }
 
 .degree {
   position: relative;
-  bottom: 40px;
+  bottom: 45px;
 }
 
 .byline {
@@ -96,4 +90,9 @@ main {
 
 a {
   color: #885df1;
+}
+
+.weather-app-icon {
+  height: 80px;
+  width: 80px;
 }

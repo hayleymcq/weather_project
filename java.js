@@ -13,6 +13,8 @@ function updateTodayTemp(response) {
   let date = new Date(response.data.time * 1000);
   let time = document.querySelector("#time");
   time.innerHTML = formatDate(date);
+  let icon = document.querySelector("#icon");
+  icon.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
 }
 
 function formatDate(date) {
