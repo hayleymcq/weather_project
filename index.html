@@ -24,7 +24,6 @@
             autofocus
             required
             id="search-form-input"
-
           />
           <input type="submit" value="Search" class="button" />
         </div>
@@ -32,10 +31,11 @@
       <main>
         <h1></h1>
         <div class="weather-conditions">
-          <span class="todays-date">Saturday 15:32</span>, moderate rain
+          <span class="todays-date" id="time"></span>,
+          <span id="description"></span>
           <br />
-          Humidity: <span class="bold">87%</span>, Wind:
-          <span class="bold">7.2km/h</span>
+          Humidity: <span class="bold" id="humidity"></span>, Wind:
+          <span class="bold" id="wind-speed"></span>
         </div>
         <div class="todays-temp">
           <span class="main_emoji">🌞</span><span class="main_temp"></span
