@@ -50,7 +50,7 @@ main {
   border-width: 1px 0;
   border-style: solid;
   border-color: #f9f7fe;
-  height: 320px;
+  height: 340px;
 }
 h1 {
   font-weight: 700;
@@ -69,11 +69,11 @@ h1 {
   font-size: 26px;
   position: relative;
   left: 375px;
-  bottom: 245px;
+  bottom: 300px;
 }
 
 .main_temp {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 700;
   position: relative;
   bottom: 12px;
@@ -81,7 +81,8 @@ h1 {
 
 .degree {
   position: relative;
-  bottom: 45px;
+  bottom: 65px;
+  right: 3px;
 }
 
 .byline {
@@ -95,8 +96,8 @@ a {
 }
 
 .weather-app-icon {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
 }
 
 .forecast {
@@ -105,17 +106,17 @@ a {
   color: black;
   display: flex;
   justify-content: space-between;
-  margin: 0 30px;
+
   line-height: 2;
 }
 
 .forecast-icon {
-  width: 28px;
-  height: 28px;
+  width: 70px;
+  height: 70px;
 }
 
 .forecast-temp {
-  font-size: 14px;
+  font-size: 18px;
   color: #f65282;
   font-weight: 600;
 }
